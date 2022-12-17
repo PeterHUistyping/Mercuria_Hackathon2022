@@ -21,13 +21,11 @@ column = sheet_obj.max_column
 # Loop will print all values 
 # of first column  
 # print("\nValue of first column")
-
 timestamp = []
 velocity = []
 distance=[]
 fuel=[]
 ghg=[]
-
 start_row=207
 for i in range(207, 231+1): 
     ts_obj = sheet_obj.cell(row = i, column = 1) 
@@ -56,7 +54,6 @@ for i in range(207, 231+1):
         start_row=209
     ghg.append(3.206*fuel[i-start_row]) # normalised to kT
     print(timestamp[i-start_row],velocity[i-start_row],distance[i-start_row],fuel[i-start_row],ghg[i-start_row])    
-
 # printing the value of first column
 # Loop will print all values 
 # of first row
