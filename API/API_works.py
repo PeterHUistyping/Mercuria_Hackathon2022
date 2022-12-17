@@ -29,7 +29,6 @@ while next_url!='null':
     print(next_url)
     next_url=extract_and_export(count,url1=f"https://api.hackathon.mercuria-apps.com/api/ais-hourly/?end_date=2022-08-02&page={count}&page_size=1000&start_date=2022-08-01")
     count+=1
-
 # print(resp['results'])
 # while resp['next']!='null':
 #     resp=extract(resp['next'])
