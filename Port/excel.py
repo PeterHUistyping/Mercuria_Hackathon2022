@@ -24,8 +24,9 @@ column = sheet_obj.max_column
 country_name=[]
 lat = []
 lon = []
-start_row=2
-for i in range(2, row+1): 
+ports = {}
+end_row=500 # max row+1
+for i in range(2, end_row): 
     lat_obj = sheet_obj.cell(row = i, column = 1) 
     lat_value=(lat_obj.value)
     lon_obj = sheet_obj.cell(row = i, column = 2) 
@@ -33,8 +34,12 @@ for i in range(2, row+1):
     if lat_value =='' or lon_value =='' or lat_value is None or lon_value is None:
         continue
     con_obj = sheet_obj.cell(row = i, column = 4) 
+    country_value=con_obj.value
     # if type(ts_obj) is None:
-    country_name.append(con_obj.value)
-    lat.append(lat_value)
-    lon.append(lon_value)
+    # country_name.append(country_value)
+    # lat.append(float(lat_value))
+    # lon.append(float(lon_value))
     print(con_obj.value,lat_value,lon_value)
+    ports[country_value] = {"lat" :float(lat_value) , "lon" : float(lon_value)}
+print(ports)
+
