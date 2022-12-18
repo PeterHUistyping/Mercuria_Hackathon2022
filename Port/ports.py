@@ -27,10 +27,10 @@ lon = []
 ports = {}
 end_row=500 # max row+1
 for i in range(2, end_row): 
-    lat_obj = sheet_obj.cell(row = i, column = 1) 
-    lat_value=(lat_obj.value)
-    lon_obj = sheet_obj.cell(row = i, column = 2) 
+    lon_obj = sheet_obj.cell(row = i, column = 1) 
     lon_value=(lon_obj.value)
+    lat_obj = sheet_obj.cell(row = i, column = 2) 
+    lat_value=(lat_obj.value)
     if lat_value =='' or lon_value =='' or lat_value is None or lon_value is None:
         continue
     con_obj = sheet_obj.cell(row = i, column = 4) 
