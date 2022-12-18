@@ -1,4 +1,12 @@
 
+'''Data Structure 
+ports = {
+    'new york': {
+        'lat': 23.3,
+        'lon': -34
+    }
+}
+'''
 # Python program to read an excel file 
 # import openpyxl module 
 import openpyxl 
