@@ -1,0 +1,43 @@
+% Include the per-supervision info file.
+\documentclass[a4paper,12pt]{article}
+ 
+% Pull in the template, configured as above.
+% If you have any additional \usepackage commands, or other
+% macros or directives, put them here.  Remember not to edit
+% files in the template directory because any changes will
+% be overwritten when template updates are issued.
+\usepackage{pdfpages}
+\begin{document}
+This is the formula that we derived:
+\[P=x_0+x_1\cdot dwt+x_2\cdot speed^{\mu}+\epsilon\]
+Let \[x=\frac{1.63d}{s}(c_0+c_1\cdot dwt+c_2\cdot s^{\mu})\]
+\[fuel=x+t\cdot aux\] 
+\[cost=fuel+t\cdot penalty=x+d\cdot aux\cdot s^{-1}+d\cdot penalty\cdot s^{-1}\]
+To optimise the cost, we need to set the derivative of cost equal to 0: \[\frac{\mathrm{d}cost}{\mathrm{d}t}=0\]
+Hence,
+\[s=(\frac{d(1.63c_0+1.63c_1\cdot dwt+aux+penalty)}{1.63d\cdot c_2\cdot (\mu-1)})^{\frac{1}{\mu}}\] 
+\end{document}
+
+    %   \begin{table}[!th]
+    %    \begin{tabular}{c|c c c c}
+    %     A3-A0 &00 & 01 & 11 & 10\\
+    %      \hline
+    %      00 & 0 &0&0&0\\
+    %     01& 1 & 1 & 1 & 1\\
+    %    11&X & X & X & X\\
+    %     10& 0 & 0 & 0 & 0
+    %    \end{tabular}\\
+    %  \end{table}
+    %  \\Expression $z_b=A_2$
+        
+      % \begin{figure}[htbp]
+      %   	\begin{minipage}[t]{0.45\linewidth}
+      %   	\centering
+      %  \includegraphics[height=3cm,width=6cm]{./2020p3q4-1a.jpg}
+      %  	 \caption{1/i}
+      %   \end{minipage}%
+      %  \end{figure}
+
+ 	% \includepdf[pages=-]{y2002p6q8.pdf}
+        % \lstinputlisting[language=Java]{matrix.java}
+        
