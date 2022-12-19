@@ -4,7 +4,7 @@
 import openpyxl 
 from statistics import mean
 # Give the location of the file 
-path = "./Excel/hercules.xlsx"
+path = "./Noon_Report/hercules.xlsx"
 # To open the workbook 
 # workbook object is created 
 wb_obj = openpyxl.load_workbook(path) 
