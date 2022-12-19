@@ -10,7 +10,6 @@ Ships can use Just In Time (JIT) arrival to optimise voyage speed and arrive in 
 ![Intro](Photo/Intro_Ch.png)
 ### Challenge 1 Monitoring, reporting and verification of CO2 emissions
 ```
-Teaser
 • Wouldn’t it be helpful if we could better track and verify shipping journeys and categorise the worst polluters?
 Step 1: AIS monitoring
 Using AIS data, track a vessel over a voyage and report on:
@@ -30,7 +29,6 @@ For the data provided, across all time, rank the top 100 most polluting vessels 
 ```
 ### Challenge 2: Voyage route optimization
 ```
-Teaser
 • How can we help vessels to plan optimised routes that reduce fuel consumption and emissions in any scenario?
 Step 1: Simple routing
 Using a theoretical voyage between the ports provided, estimate:
@@ -50,7 +48,6 @@ Using the Voyage data, generate GHG efficient voyages for 100 unique voyages.
 ```
 ### Challenge 3: Cargo logistics optimization
 ```
-Teaser
 • Vessel operators and cargo exporters want to optimise their logistics planning to minimize their impact on the environment. There should be an app for that!
 Step 1: Cargo emissions
 Looking at the AIS data provided, track a cargo ship on a voyage.
