@@ -5,13 +5,10 @@ def export_results(dictionary, filename):
         export_json = json.dumps(dictionary, indent=4)
         json_f.write(export_json)
 def extract_and_export(i,url1):
-    # url1 = "https://api.hackathon.mercuria-apps.com/api/ais-hourly/?start_date=2021-08-01&end_date=2021-08-02"
     headers = {
-    "Authorization": "Token ac9ed6b82c1f8c63d728333ae37bba249d2cbb4c",
+    "Authorization": "Token ",
     # "accept" : "application/json",
     }
-    # username="6Cheese"
-    # password ="Rudolph123"
     resp = requests.get(url1,headers=headers)
     if resp.status_code != 200:
         print('error: ' + str(resp.status_code))
@@ -27,7 +24,7 @@ count=1
 next_url='1'
 while next_url!='null':
     print(next_url)
-    next_url=extract_and_export(count,url1=f"https://api.hackathon.mercuria-apps.com/api/ais-hourly/?end_date=2022-08-02&page={count}&page_size=1000&start_date=2022-08-01")
+    next_url=extract_and_export(count,url1=f"https://api.com/api/ais-hourly/?end_date=2022-08-02&page={count}&page_size=1000&start_date=2022-08-01")
     count+=1
 # print(resp['results'])
 # while resp['next']!='null':

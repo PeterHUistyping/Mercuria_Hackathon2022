@@ -6,11 +6,11 @@ def basic_auth(username, password):
     token = b64encode(f"{username}:{password}".encode('utf-8')).decode("ascii")
     return f'Basic {token}'
 
-username="6Cheese"
-password ="Rudolph123"
+username="6"
+password ="R"
 
 #This sets up the https connection
-c = HTTPSConnection("https://api.hackathon.mercuria-apps.com/api/")
+c = HTTPSConnection("https://api.com/api/")
 #then connect
 headers = { 'Authorization' : basic_auth(username, password) }
 c.request('GET', '/', headers=headers)
