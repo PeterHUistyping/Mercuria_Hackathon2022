@@ -24,8 +24,8 @@ import urllib3
 # Disable HTTPS insecure certificate warning
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-username = "6Cheese"
-password = "Rudolph123"
+username = "6"
+password = "R"
 
 # def get_token(username, password):
 #     """
@@ -54,7 +54,7 @@ def get_data_from_dna_center(token):
     # Include the token in the header.
     headers = {'content-type': 'application/json', 'x-auth-token': token}
     # Send HTTP GET to retrieve endpoint.
-    response = requests.get('https://api.hackathon.mercuria-apps.com/api/ais-hourly/?start_date=2022-08-01&end_date=2022-08-30', headers=headers, verify=False)
+    response = requests.get('https://api.com/api/ais-hourly/?start_date=2022-08-01&end_date=2022-08-30', headers=headers, verify=False)
     response_as_dict = response.json() # convert JSON to DICT.
     return response_as_dict
 
