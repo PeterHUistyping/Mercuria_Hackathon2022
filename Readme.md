@@ -27,6 +27,7 @@ Create a verification method for the data manually provided with the ability to 
 Step 4: Analyse
 For the data provided, across all time, rank the top 100 most polluting vessels along with the GHGs they emitted.
 ```
+![Intro](Photo/Compare_Report.png)
 ### Challenge 2: Voyage route optimization
 ```
 • How can we help vessels to plan optimised routes that reduce fuel consumption and emissions in any scenario?
