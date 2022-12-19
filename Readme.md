@@ -1,6 +1,10 @@
 # Mercuria Hackathon 2022
 https://hackathon22mercuria.com/
+![Intro](Photo/Intro.png)
+## Background
+![Intro](Photo/Intro_Sea.png)
 ## Challenge Details
+![Intro](Photo/Intro_Ch.png)
 ### Challenge 1
 ```
 Monitoring, reporting and verification of CO2 emissions from large ships using EU ports.
