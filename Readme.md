@@ -7,7 +7,7 @@ Around 90% of world trade is transported by sea and carbon emissions from shippi
 In 2013, the Commission set out a strategy towards reducing GHG emissions from the shipping industry. The strategy consists of 3 consecutive steps starting with monitoring, reporting and verification of CO2 emissions from large ships using EU ports.\
 Ships can use Just In Time (JIT) arrival to optimise voyage speed and arrive in port when berth / nautical services are available. Avoiding travelling unnecessarily fast and then waiting outside port can reduce fuel consumption and carbon dioxide emissions by 14% on a per voyage basis.
 ![Intro](Photo/Intro_Sea.png)
-## Multiple Regression
+## Multiple Regression 
 ```
 import statsmodels.api as sm
 model = sm.OLS(y, X)
@@ -122,6 +122,7 @@ Step 4: Logistics optimisation
 Using the data gathered in Step 2 and 3, create matches between vessel voyages and cargo export needs.
 How much can your application reduce GHG emissions per tonne of cargo?
 You can ignore drag, or not!
+Delphi-Application
 ```
 
 
