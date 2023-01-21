@@ -2,11 +2,13 @@
 Helping to accelerate the energy transition and reduce the carbon emissions of the maritime industry\
 https://hackathon22mercuria.com/
 ![Intro](Photo/Intro.png)
+
 ## Background
 Around 90% of world trade is transported by sea and carbon emissions from shipping are increasing.\
 In 2013, the Commission set out a strategy towards reducing GHG emissions from the shipping industry. The strategy consists of 3 consecutive steps starting with monitoring, reporting and verification of CO2 emissions from large ships using EU ports.\
 Ships can use Just In Time (JIT) arrival to optimise voyage speed and arrive in port when berth / nautical services are available. Avoiding travelling unnecessarily fast and then waiting outside port can reduce fuel consumption and carbon dioxide emissions by 14% on a per voyage basis.
 ![Intro](Photo/Intro_Sea.png)
+
 ## Multiple Regression 
 ```
 import statsmodels.api as sm
